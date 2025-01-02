@@ -1,83 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teddy On Heels</title>
-    <link rel="stylesheet" href="style.scss">
 </head>
+
 <body>
-
-    <header class="header">
-        <div class="icon_oval">
-            <img src="public/icon/ton.png" alt="">
-        </div>
-        <nav class="menu">
-            <a href="#">ABOUT</a>
-            <a href="#">ROADMAP</a>
-            <a href="#">TOKENOMICS</a>
-            <a href="#">FAQ</a>
-        </nav>
-        <div class="actions">
-            <div class="icons">
-                <img src="public/icon/icon1.png" alt="Icon 1">
-                <img src="public/icon/icon2.png" alt="Icon 2">
-                <img src="public/icon/icon3.png" alt="Icon 3">
+    <div class="app">
+        <div class="header">
+            <div class="header_logo">
+                <img src="/img/logo.png" alt="">
             </div>
-            <button class="wallet-button">CONNECT WALLET</button>
+            <div class="header_links">
+                <a href="#">ABOUT</a>
+                <a href="#">ROADMAP</a>
+                <a href="#">TOKENOMICS</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="header_media">
+                <a href="#" class="header_media_element">
+                    <img src="/img/dex.svg" alt="media">
+                </a>
+                <a href="#" class="header_media_element">
+                    <img src="/img/x.svg" alt="media">
+                </a>
+                <a href="#" class="header_media_element">
+                    <img src="/img/tg.svg" alt="media">
+                </a>
+                <button class="header_connect">CONNECT WALLET</button>
+            </div>
         </div>
-    </header>
 
-    <section class="main">
-        <h1 class="title">TEDDY ON HEELS <br> PAWS TO THE MOON</h1>
-        <p>BUY <b>$TOH -</b>SCALE - FUN WITH TEDDY</p>
-        <div class="main-dog">
-            <img src="public/img/1.png    " alt="Teddy Dog">
-          </div>
-
-    </section>
-    <div class="buy-toh">
-        
-      <h2 class="buy-title">BUY TOH</h2>
-
-      <div class="buy-container">
-        
-          <div class="cript">
-            
-              <div class="currency">
-                  <img src="public/icon/solana.png" alt="Solana" class="currency-icon">
-                  <span>Solana</span>
-              </div>
-              <input type="text" class="amount-input">
-          </div>
-          <div class="transfer-icon">
-              <img src="public/icon/transfer.png" alt="Swap">
-          </div>
-          <div class="cript">
-              <div class="currency">
-                  <img src="public/icon/tonik.png" alt="TOH" class="currency-icon">
-                  <span>TOH</span>
-              </div>
-              <input type="text" class="amount-input">
-          </div>
-      </div>
-      <button class="connect-wallet">CONNECT WALLET</button>
-  </div>
-  
-
-    <div class="stats">
-        <div class="stat">
-            <h3>Price</h3>
-            <p>$0.0003512</p>
+        <div class="hero">
+            <div class="hero_header">
+                TEDDY ON HEELS PAWS TO THE MOON
+            </div>
+            <div class="hero_subheader">
+                BUY <span>$TOH</span> - SCALE - FUN WITH TEDDY
+            </div>
+            <div class="hero_content">
+                <div class="hero_decor">
+                    <div class="hero_light free_img">
+                        <img src='/img/light.svg' alt='decor'>
+                    </div>
+                    <div class="hero_dog free_img">
+                        <img src='/img/dog.png' alt='decor'>
+                    </div>
+                </div>
+                <div class="hero_swapper">
+                    <div class="hero_swapper_header"></div>
+                    <div class="hero_swapper_curr">
+                        <div class="hero_swapper_curr_name">
+                            <div class="hero_swapper_curr_name_logo"></div>
+                            <div class="hero_swapper_curr_name_text"></div>
+                        </div>
+                        <input type="number" placeholder="0.00">
+                    </div>
+                    <div class="hero_swapper_swapBtn_wrapper free_img">
+                        <div class="hero_swapper_swapBtn">
+                            <img src='/img/doubleArrow.svg' alt='decor'>
+                        </div>
+                    </div>
+                    <div class="hero_swapper_curr">
+                        <div class="hero_swapper_curr_name">
+                            <div class="hero_swapper_curr_name_logo"></div>
+                            <div class="hero_swapper_curr_name_text"></div>
+                        </div>
+                        <input type="number" placeholder="0.00">
+                    </div>
+                    <div class="hero_swapper_connectBtn">
+                        CONNECT WALLET
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="stat">
-            <h3>Liquidity</h3>
-            <p>$60K</p>
+
+        <div class="stats_list">
+            <div class="stats_element">
+                <div class="stats_element_header">
+                    PRICE
+                </div>
+                <div class="stats_element_value">
+                    $0.0003512
+                </div>
+            </div>
+            <div class="stats_element">
+                <div class="stats_element_header">
+                    LIQUIDITY
+                </div>
+                <div class="stats_element_value">
+                    $60K
+                </div>
+            </div>
+            <div class="stats_element">
+                <div class="stats_element_header">
+                    MARKET CAP
+                </div>
+                <div class="stats_element_value">
+                    $351K
+                </div>
+            </div>
         </div>
-        <div class="stat">
-            <h3>Market Cap</h3>
-            <p>$351K</p>
-        </div>
+
+
+
     </div>
+
 </body>
+
 </html>
