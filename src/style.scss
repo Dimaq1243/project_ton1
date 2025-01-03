@@ -1,6 +1,10 @@
 @use 'null';
 @use 'header';
 
+body {
+    background: #1E1E1E;
+}
+
 .app {
     width: 100%;
     overflow: hidden;
@@ -81,8 +85,117 @@
 }
 
 
+// .token_title{
+//     background: #1E1E1E;
+//     text-align: center;
+//     min-width: 523px;
+//     min-height: 91px;
+//     font-size: 75px;
+// }
+// .token{
+//     display: flex !important;
+//     justify-content: center;
+//     background: #1A1F2E;
+//     border: 1px solid white;
+
+//     &_text_market{
+//         min-width: 293px;
+//         min-height: 77px;
+//         background: rgba($color: #282F42, $alpha: 1.0);
+//     }
+
+// }
+
+.tokenomics {
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 20px;
+    background: #1A1F2E;
+    max-width: 1340px;
+    max-height: 522px;
+    border: 1px solid white;
+    
+
+    &_title {
+        font-size: 75px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+
+    &_img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    &_img_text {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(#282F42, 0.8);
+        border: 1px solid white;
+        backdrop-filter: blur(10px);
+        width: 293px;
+        height: 77px;
+        font-weight: 600;
+        transform: translateY(-291px);
+        border-radius: 10px;
+        
+    }
 
 
+
+    &_supply {
+
+        transform: translateY(-520px);
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 600;
+        box-sizing: border-box;
+
+    }
+
+    &_cards {
+        
+        display: flex;
+        justify-content: center;
+        gap:9px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+        
+    }
+
+    &_card {
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 406px;
+        height: 212px;
+        transform: translateY(-500px);
+        background: linear-gradient(157.64deg, rgba(40, 47, 66, 0.9) 7.53%, rgba(54, 63, 87, 0.9) 94.12%);
+
+    }
+    &_header{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    &_subheader{
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
 
 
 // a {
