@@ -1,0 +1,16 @@
+.faq {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    &_title {
+        font-size: 75px;
+        font-weight: 900;
+        text-align: center;
+
+        @media(max-width: 550px) {
+            font-size: 48px;
+        }
+    }
+}
